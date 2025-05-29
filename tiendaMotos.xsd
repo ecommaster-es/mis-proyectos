@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="tienda">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="producto" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="imagen" maxOccurs="unbounded" />
+                            <xs:element name="descripcion" type="xs:string" />
+                            <xs:element name="marca" type="xs:string" />
+                            <xs:element name="stock" type="xs:string" />
+                            <xs:element name="unidadesVendidas" type="xs:string" />
+                            <xs:element name="valorTotalOpiniones" type="xs:string" />
+                            <xs:element name="precios">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="precio" type="xs:string" />
+                                        <xs:element name="precioDescuento" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="categorias">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="categoria" maxOccurs="unbounded"
+                                            type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="disponibilidad">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tiendaFisica" type="xs:string" />
+                                        <xs:element name="tiendaOnline" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="opiniones">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="opinion" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="autor" type="xs:string" />
+                                                    <xs:element name="fecha" type="xs:string" />
+                                                    <xs:element name="nota" type="xs:string" />
+                                                    <xs:element name="texto" type="xs:string" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nuevo" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

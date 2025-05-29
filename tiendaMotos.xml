@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  <producto nuevo="sí">
+    <nombre>Chaqueta motera Harley-Davidson</nombre>
+    <imagen>https://www.automovilesplaycar.com/files/ktm-img/chaqueta-moto-hombre-rst-s-1-naranja_20230113120813_1.jpg</imagen>
+    <imagen>https://motoskin.es/wp-content/uploads/2020/05/16-CHAQUETA-DE-MOTO-EN-CUERO-ESTILO-VINTAGE-MARRON-CON-FORRO-Y-PROTECCIONES-EXTRAIBLES.jpg</imagen>
+    <descripcion>Chaqueta de la marca Harley-Davidson para las motos Kawasaki. Hecha para los amantes de esta marca.</descripcion>
+    <marca>Harley-Davidson</marca>
+    <stock>150</stock>
+    <unidadesVendidas>1200</unidadesVendidas>
+    <valorTotalOpiniones>4.6</valorTotalOpiniones>
+    <precios>
+      <precio>174.99</precio>
+      <precioDescuento>169.99</precioDescuento>
+    </precios>
+    <categorias>
+      <categoria>Chaqueta Motera</categoria>
+      <categoria>Oferta</categoria>
+    </categorias>
+    <disponibilidad>
+      <tiendaFisica>sí</tiendaFisica>
+      <tiendaOnline>no</tiendaOnline>
+    </disponibilidad>
+    <opiniones>
+      <opinion>
+        <autor>Denys</autor>
+        <fecha>10/05/2024</fecha>
+        <nota>5</nota>
+        <texto>Excelente calidad y resistencia.</texto>
+      </opinion>
+      <opinion>
+        <autor>Ismael</autor>
+        <fecha>15/05/2024</fecha>
+        <nota>4</nota>
+        <texto>Muy buena aunque un poco cara.</texto>
+      </opinion>
+    </opiniones>
+  </producto>
+  
+  <producto nuevo="no">
+    <nombre>Casco Bmw 250A</nombre>
+    <imagen>https://www.garibaldi.es/media/catalog/product/cache/aa91ee9597336ae960f1d2ef9725c241/G/H/GH9034_MT-BLC-2.jpg</imagen>
+    <imagen>https://www.uramoto.es/cdn/shop/files/958111.jpg?v=1698772071</imagen>
+    <descripcion>Diseñado para ofrecer la mejor experiencia en aislamiento acústico, térmico. brinda la mejor seguridad y confort.</descripcion>
+    <marca>bmw</marca>
+    <stock>300</stock>
+    <unidadesVendidas>2500</unidadesVendidas>
+    <valorTotalOpiniones>3.5</valorTotalOpiniones>
+    <precios>
+      <precio>89.99</precio>
+      <precioDescuento>74.99</precioDescuento>
+    </precios>
+    <categorias>
+        <categoria>Cascos</categoria>
+        <categoria>Oferta</categoria>
+    </categorias>
+    <disponibilidad>
+      <tiendaFisica>no</tiendaFisica>
+      <tiendaOnline>sí</tiendaOnline>
+    </disponibilidad>
+    <opiniones>
+      <opinion>
+        <autor>Mauro</autor>
+        <fecha>12/04/2024</fecha>
+        <nota>4</nota>
+        <texto>Muy buen casco relación calidad-precio.</texto>
+      </opinion>
+      <opinion>
+        <autor>Antonio</autor>
+        <fecha>14/04/2024</fecha>
+        <nota>3</nota>
+        <texto>Muy cómodo pero no aisla muy bien del frío.</texto>
+      </opinion>
+    </opiniones>
+  </producto>
+
+  <producto nuevo="no">
+    <nombre>Rueda Ducati Circuito</nombre>
+    <imagen>https://conti-moto-blog.es/wp-content/uploads/2024/03/ContiRoadAttack-4-6-rotated.jpg</imagen>
+    <imagen>https://cdn-img1.pneus-online.com/produit/pneu-moto/250/METZELER_ROADTEC_01_SE_L.jpg</imagen>
+    <descripcion>Ruedas adaptadas a circuíto que ofrecen la mejor expericia de conducción.</descripcion>
+    <marca>Ducati</marca>
+    <stock>600</stock>
+    <unidadesVendidas>1500</unidadesVendidas>
+    <valorTotalOpiniones>4.8</valorTotalOpiniones>
+    <precios>
+      <precio>99.99</precio>
+      <precioDescuento>99.99</precioDescuento>
+    </precios>
+    <categorias>
+        <categoria>Ruedas</categoria>
+    </categorias>
+    <disponibilidad>
+      <tiendaFisica>no</tiendaFisica>
+      <tiendaOnline>no</tiendaOnline>
+    </disponibilidad>
+    <opiniones>
+      <opinion>
+        <autor>David</autor>
+        <fecha>01/04/2025</fecha>
+        <nota>4.5</nota>
+        <texto>Me encanta quemar rueda cada vez que salgo a circuíto.</texto>
+      </opinion>
+      <opinion>
+        <autor>César</autor>
+        <fecha>24/07/2024</fecha>
+        <nota>5</nota>
+        <texto>Siempre pido esta marca para circuíto, la mejor.</texto>
+      </opinion>
+    </opiniones>
+  </producto>
+
+  <producto nuevo="sí">
+    <nombre>Casco Vespino </nombre>
+    <imagen>https://motorecambiovespa.com/assets/images/productos/125-g.jpg</imagen>
+    <imagen>https://images.sip-scootershop.com/cdn-cgi/imagedelivery/7WkrUYN4GAew8Bx4sug9hQ/v5awlb3j-UerHBP-Qc6i2g/600x600</imagen>
+    <descripcion>Casco económico de la marca Vespino, para paseos tranquilos.</descripcion>
+    <marca>Vespino</marca>
+    <stock>850</stock>
+    <unidadesVendidas>3500</unidadesVendidas>
+    <valorTotalOpiniones>4</valorTotalOpiniones>
+    <precios>
+      <precio>53.99</precio>
+      <precioDescuento>49.99</precioDescuento>
+    </precios>
+    <categorias>
+        <categoria>Cascos</categoria>
+        <categoria>Oferta</categoria>
+    </categorias>
+    <disponibilidad>
+      <tiendaFisica>sí</tiendaFisica>
+      <tiendaOnline>sí</tiendaOnline>
+    </disponibilidad>
+    <opiniones>
+      <opinion>
+        <autor>Fernando</autor>
+        <fecha>12/08/2024</fecha>
+        <nota>4</nota>
+        <texto>Todavía me sigue durando desde que lo compré.</texto>
+      </opinion>
+      <opinion>
+        <autor>Enrique</autor>
+        <fecha>08/03/2025</fecha>
+        <nota>4</nota>
+        <texto>Es un poco feo pero me gusta, tiene un encanto especial.</texto>
+      </opinion>
+    </opiniones>
+  </producto>
+</tienda>

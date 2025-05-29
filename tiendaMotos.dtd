@@ -1,0 +1,24 @@
+<!ELEMENT tienda (producto+)>
+<!ELEMENT producto (nombre,imagen+,descripcion,marca,stock,unidadesVendidas,valorTotalOpiniones,precios,categorias,disponibilidad,opiniones)>
+<!ATTLIST producto nuevo (sí | no) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT unidadesVendidas (#PCDATA)>
+<!ELEMENT valorTotalOpiniones (#PCDATA)>
+<!ELEMENT precios (precio,precioDescuento)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT precioDescuento (#PCDATA)>
+<!ELEMENT categorias (categoria+)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT disponibilidad (tiendaFisica,tiendaOnline)>
+<!ELEMENT tiendaFisica (#PCDATA)>
+<!ELEMENT tiendaOnline (#PCDATA)>
+<!ELEMENT opiniones (opinion+)>
+<!ELEMENT opinion (autor,fecha,nota,texto)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT texto (#PCDATA)>
